@@ -1,0 +1,71 @@
+.home {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://th.bing.com/th/id/R.b8a892bc2448e49282acc1b17d9e8cc3?rik=Twtyn%2fx6emHzOQ&pid=ImgRaw&r=0);
+    background-size: cover;
+    
+
+}
+
+.home__container {
+    margin: auto auto auto 10px;
+    
+}
+
+.home__container > h1{
+    font-size:30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: yellow;
+}
+
+li{
+    list-style-type: none;
+    margin: 10px auto;
+    color: white;
+    font-size: 20px;
+}
+
+.bold{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.home-button{
+    min-width: 50px;
+    max-width: 550px;
+    background-color: hsl(60, 77%, 35%);
+    color: white;
+    border:none;
+    padding: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.home-button:hover{
+    background-color: rgb(13, 13, 90);
+}
+
+@media only screen and (max-width: 900px){
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home__container {
+        margin: auto 25px;
+        
+    }
+
+}
