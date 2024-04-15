@@ -57,7 +57,7 @@ function App() {
             <Routes>
               <Route
                 exact
-                path="/"
+                path="/react-project"
                 element={
                   <div>
                     <Header />

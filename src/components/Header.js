@@ -21,7 +21,7 @@ function Header() {
   return (
     <div className="navbar">
       <header>
-        <Link to="/">
+        <Link to="/react-project">
           <img
             className="header_logo"
             src="https://www.logolynx.com/images/logolynx/0f/0f7cb486472899b42555a4acbdf7dab4.jpeg"
@@ -30,7 +30,7 @@ function Header() {
         </Link>
 
         <nav ref={navRef}>
-          <Link onClick={showNavbar} to="/" className="nav-element">
+          <Link onClick={showNavbar} to="/react-project" className="nav-element">
             <p>Home</p>
           </Link>
           {user ? (
