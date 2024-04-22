@@ -27,7 +27,7 @@ function Dashboard() {
     const [data_2023, setData_2023] = useState();
     
     useEffect(() => {
-        fetchDatafunc('http://127.0.0.1:5000/api/data_full2024', setData_2023);
+        fetchDatafunc('https://martinco.pythonanywhere.com/api/data_full2024', setData_2023);
     },[])
 
 
