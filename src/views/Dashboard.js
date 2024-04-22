@@ -4,8 +4,6 @@ import axios from 'axios';
 import Plot from 'react-plotly.js';
 import Trendline from './PlotTrendLine';
 function Dashboard() {
-
-    const [data, setData] = useState();
    
     const fetchDatafunc  = async(url, dataset) => {
         try {
@@ -18,10 +16,6 @@ function Dashboard() {
         }
     };
 
-    useEffect(() => {
-        fetchDatafunc('http://127.0.0.1:5000/api/hello', setData);
-    },[])
-    
 
     //http://127.0.0.1:5000/api/data_full2024
     const [data_2023, setData_2023] = useState();
