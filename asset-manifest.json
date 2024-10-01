@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-project/static/css/main.5fa68176.css",
-    "main.js": "/react-project/static/js/main.2fbc8749.js",
+    "main.js": "/react-project/static/js/main.5e72b3db.js",
     "static/js/787.2ad20733.chunk.js": "/react-project/static/js/787.2ad20733.chunk.js",
     "static/media/Freecad_SDI.glb": "/react-project/static/media/Freecad_SDI.716f55ba789c6efb1e1d.glb",
     "index.html": "/react-project/index.html",
     "main.5fa68176.css.map": "/react-project/static/css/main.5fa68176.css.map",
-    "main.2fbc8749.js.map": "/react-project/static/js/main.2fbc8749.js.map",
+    "main.5e72b3db.js.map": "/react-project/static/js/main.5e72b3db.js.map",
     "787.2ad20733.chunk.js.map": "/react-project/static/js/787.2ad20733.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fa68176.css",
-    "static/js/main.2fbc8749.js"
+    "static/js/main.5e72b3db.js"
   ]
 }
